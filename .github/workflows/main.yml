@@ -32,7 +32,7 @@ jobs:
       - name: Trigger jenkins job
         uses: jabbukka/jenkins-trigger@main
         with:
-          url: http://monappli.ovh:800/
+          url: http://monappli.ovh:8080/
           job_name: "Test_pipeline_Hello_World"
           user_name: clement
           api_token: 11f819c0ee6407dcfb953f2c47882685bd
